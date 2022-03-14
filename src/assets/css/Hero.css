@@ -1,0 +1,26 @@
+.hero {
+ 
+    height:600px;
+    width:100%;
+    background: rgb(210,227,227);
+background: radial-gradient(circle, rgba(210,227,227,0.8970938717283788) 26%, rgba(149,251,251,0.6646008745294993) 84%);
+ padding-top: 10px;
+ overflow:hidden;
+}
+
+.hero .carousel .slider-wrapper {
+    width: 80%;
+    height: 500px;
+}
+.hero .carousel .thumb {
+    width: 5%;
+    height: 50px;
+}
+.hero .carousel {
+    text-align: center;
+}
+
+
+img {
+    height:600px;
+}

@@ -1,0 +1,118 @@
+.left-panel {
+    height:650px;
+    width:20%;
+    padding:0px 10px 0px 10px;
+    margin-right:5px;
+    box-shadow: #dedede;
+
+}
+.property-list{
+    
+    width:80%;
+    padding:10px;
+
+}
+
+.l {
+    list-style: none;
+}
+
+.banner {
+    height:150px;
+    padding:7px;
+    width:100%;
+}
+.map {
+    height:200px;
+   width:100%;
+
+
+    
+}
+
+.map img{
+    height:200px;
+    width:350px;
+}
+
+.prop-name{
+    height:auto;
+    width:100%;
+}
+
+.result{
+    height:50px;
+    border:hidden;
+    background-color: azure;
+    width:100%;
+    padding:3px;
+}
+
+.prop {
+    margin-top:10px;
+    
+}
+.priceSlider
+{
+
+padding: 10px 20px;
+}
+
+
+.min
+{
+float: left;    
+}
+.max
+{
+float: right;    
+}
+.min-max
+{
+width: 90%;
+max-width: 200px;
+margin: 0 auto;   
+}
+.min-max span
+{
+text-align: center;
+display: inline-block;
+  
+}
+.min-max-range
+{
+padding: 30px 0px 20px 0px;    
+}
+.range
+{
+-webkit-appearance:none;
+appearance:none;
+width: 50%;
+height: 10px;
+max-width: 400px;
+background-color: #dedede;
+margin: 0;
+padding: 0;
+outline: none;
+float: left;    
+}
+.range::-webkit-slider-thumb
+{
+-webkit-appearance:none;
+appearance:none;
+background-color: #0070BF;
+height: 10px;
+width: 10px;
+border-radius: 50%;
+cursor: pointer;
+}
+.range::moz-range-thumb
+{
+-webkit-appearance:none;
+appearance:none;
+background-color: #0070BF;
+height: 10px;
+width: 10px;
+border-radius: 50%;
+cursor: pointer;
+}

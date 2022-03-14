@@ -1,0 +1,36 @@
+.footer {
+    background: #a7efef;
+    background: radial-gradient(circle, rgba(167, 239, 239, 1) 2%, rgba(245, 238, 221, 0.950315160243785) 89%);
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+
+
+}
+.footer .row .col-3 {
+    margin-top: 5px;
+    justify-content: center;
+}
+.footer .row .col-3 .copyright {
+    margin-top: 14px;
+    margin-bottom: 0;
+    font-size: 13px;
+    opacity: 0.6;
+}
+.footer .row .col-3 h3 {
+    padding-left: 27px;
+}
+.footer .row .col-3 a {
+    padding: 5px;
+}
+.footer .row .col-3 ul {
+    display: block;
+}
+.footer .row .col-3 ul li {
+    list-style-type: none;
+}
+.footer .row .icons{
+    margin-top: 34px;
+    text-align: center;
+}
+

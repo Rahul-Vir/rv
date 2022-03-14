@@ -1,0 +1,44 @@
+.propCard {
+	
+	 margin-bottom: 10px;
+	 border: 0ch;
+	 height: 400px;
+	
+}
+ .propCard .row {
+	 position: relative;
+	 display: flex;
+	 width: 100%;
+}
+ .propCard .row .col-4 {
+	 position: relative;
+}
+ .propCard .row .col-4 img {
+	 height: 300px;
+	 position: absolute;
+
+}
+ .propCard .row .col-4 .propCard-body p {
+	 font-size: 13px;
+}
+ .propCard .row .col-4 .propCard-body .rating {
+	 display: flex;
+}
+ .propCard .row .col-4 .propCard-body .rating span b {
+	 padding-left: 3px;
+}
+ .propCard .row .col-4 .goto {
+	 margin: 0;
+	 position: absolute;
+	 top: 50%;
+	 right: 0%;
+	 -ms-transform: translateY(-50%);
+	 transform: translateY(-50%);
+	 display: flex;
+	 flex-direction: column;
+}
+ .propCard .row .col-4 .goto .price {
+	 text-align: center;
+	 margin-bottom: 7px;
+}
+ 

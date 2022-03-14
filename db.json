@@ -1,0 +1,101 @@
+
+ 
+{
+    "property-type": 
+    [
+     
+        { "id": 1, 
+        "name": "Resort", 
+        "description": "Check our exclusive Resorts!!",
+        "img":"https://images.unsplash.com/photo-1596178065887-1198b6148b2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHJlc29ydHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "list" :
+  [
+        {
+          "id":1,"name":"Blue ray resort","price":200.45,"address": "3595 Timbercrest road, Noorvik TA,  M2A1Z1","img" :"https://media.cntraveler.com/photos/5f6ac3279a18c4ed58dd37fd/master/w_2048,h_1365,c_limit/Naladhu-Private-Island-Maldives.jpg" ,"rating" : "9.5", 
+          "description" : "SUMMER FAMILY SPECIALS - 50% off. All-inclusive 5 night getaway with lake View rooms/suites and wide variety of meals"
+        }, {
+          "id":2,"name":"Lakeside resort","price":225.95,"address": "5908 50th st, Leduc, AB, T9E6Z6, CA","img" :"https://images.unsplash.com/photo-1606402179428-a57976d71fa4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHJlc29ydHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"  ,"rating" : "8.2", "description" : "SUMMER FUN FAMILY GETAWAY Get ready for some fun!! Join us at an exclusive family owned resort by Lake Owen. Enjoy 7 nights accommodation in our family suite with a fully equipped kitchen, double queen sized bed, 60 inch TV with many streaming platforms, balcony with lake or garden view and all inclusive breakfast! "
+        }, {
+          "id":3,"name":"West Mint resort ","price":180.55,"address": "277 West side St, Long fellow Lake, BC, 1A13D4, CA ","img" :"https://images.unsplash.com/photo-1549294413-26f195200c16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHJlc29ydHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"  ,"rating" : "8.2", "description" : "SUMMER FUN FAMILY GETAWAY Get ready for some fun!! Join us at an exclusive family owned resort by Lake Owen."
+        }, {
+          "id":4,"name":"Light tower resort ","price":250.05,"address": "2008 Florence St, Hooks, TX, 7G62R6 CA","img" :"https://images.unsplash.com/photo-1586611292717-f828b167408c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cmVzb3J0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" ,"rating" : "9.5" , "description" : " Enjoy 7 nights accommodation in our family suite with a fully equipped kitchen, double queen sized bed, 60 inch TV with many streaming platforms, balcony with lake or garden view and all inclusive breakfast!"
+        }, {
+          "id":5,"name":"Autumn peak resort ","price":250.45,"address": "1276 commissioners W, london, ON, N6K1E1, CA ","img" :"https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"  ,"rating" : "7.5", "description" : "SUMMER FAMILY SPECIALS - 50% off. All-inclusive 5 night getaway with lake View rooms/suites and wide variety of meals"
+        },{
+          "id":6,"name":"Serene luxury resort ","price":210.35,"address": "67th St, Carlton lake, PEI, M1E 3Y8, CA","img" :"https://images.unsplash.com/photo-1561501900-3701fa6a0864?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" ,"rating" : "9.5" , "description" : " All-inclusive 5 night getaway with lake View rooms/suites and wide variety of meals"
+        },
+        {
+          "id":7,"name":"Beach view resort","price":199.99,"address": "3595 Timbercrest road, Noorvik TA,  M2A1Z1","img" :"https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80" ,"rating" : "9.5" , "description" : "Enjoy 7 nights accommodation in our family suite with a fully equipped kitchen, double queen sized bed, 60 inch TV with many streaming platforms, balcony with lake or garden view and all inclusive breakfast! "
+        },
+        {
+          "id":8,"name":"Spring memorial Resort ","price":150.50,"address": "4595 - 20 Hollister St, Calgary, AB, W1Z 2X4, CA ","img" :"https://images.unsplash.com/photo-1596178067639-5c6e68aea6dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" ,"rating" : "9.5" , "description" : "All-inclusive 5 night getaway with lake View rooms/suites and wide variety of meals"
+        }
+      ] },
+      {
+         "id": 2, 
+          "name": "Condominium", 
+          "description": "Check our exclusive Condos!!",
+          "img":"https://st.depositphotos.com/1011517/1222/i/450/depositphotos_12228069-stock-photo-modern-house-in-berlin.jpg",
+        "list" :[
+          {
+            "id":1,"name":"Water condos ","price":150.45,"address": "5908 50th st, Leduc, AB, T9E6Z6, CA","img" :"https://cdn.pixabay.com/photo/2020/01/26/12/19/vacation-4794521_960_720.jpg", "type" : "resort"  ,"rating" : "8.2", "description" : "Comfy full furnished condominium in the heart of toronto right across from CN tower. "
+          }, {
+            "id":2,"name":"20th street condos ","price":102.55,"address": "3595 Timbercrest road, Noorvik TA,  M2A1Z1","img" :"https://st.depositphotos.com/2256213/3420/i/450/depositphotos_34203861-stock-photo-modern-apartment-building.jpg"  ,"rating" : "7.5", "description" : "Beautiful 2 bedroom 2 baths condo in downtown Calgary near Calgary International Airport. "
+          }, {
+            "id":3,"name":"Carlton condos","price":99.45,"address": "1276 commissioners W, london, ON, N6K1E1, CA ","img" :"https://archello.com/thumbs/images/2019/07/01/1.1561995294.1643.jpg?fit=crop&w=1920&h=1080" ,"rating" : "9.5" , "description" : "Beautiful 2 bedroom 2 baths condominium in the heart of toronto right across from CN tower."
+          }, {
+            "id":4,"name":"Modern Condos","price":150.65,"address": "2008 Florence St, Hooks, TX, 7G62R6 CA","img" :"https://images.adsttc.com/media/images/5af2/753a/f197/cc64/6800/00a2/newsletter/ArteS-Ext021_2000px150dpi.jpg?1525839154"  ,"rating" : "8.2", "description" : "Comfy full furnished condominium in the heart of toronto right across from CN tower. "
+          }, {
+            "id":5,"name":"Parkville Condos","price":200.45,"address": "4595 - 20 Hollister St, Calgary, AB, W1Z 2X4, CA ","img" :"https://archello.s3.eu-central-1.amazonaws.com/images/2019/07/01/5.1561995296.2772.jpg" ,"rating" : "9.5" , "description" : "1 bedroom apartment with 1 bathroom and 1 free parking spot with a balcony overlooking amazing view"
+          }
+        ] 
+
+      },{
+        "id": 3, 
+         "name": "Beach-House", 
+         "description": "Check our exclusive Beach-Houses!!",
+         "img":"https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmVhY2glMjBob3VzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+       "list" :[
+         {
+           "id":1,"name":"Beach Haven","price":250.45,"address": "2008 Florence St, Hooks, TX, 7G62R6 CA","img" :"https://images.unsplash.com/photo-1544143086-828f66ac3945?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"  ,"rating" : "8.2", "description" : "Get away to the Jem Coast at this bold and very comfortable beach house where you can enjoy incredible views of the Jem beach from the house. Stroll out to the adjacent beach for days of fun in the sun, stay close to home and take a dip in the heated pool, or maintain your workout routine in the indoor gym. There’s a little something for everyone at this sterling beach house! The house contains a full kitchen, 2 queen beds, fire place, patio, BBQ grill and much more."
+         }, {
+           "id":2,"name":"Parkingston House","price":120.65,"address": "3595 Timbercrest road, Noorvik TA,  M2A1Z1","img" :"https://images.unsplash.com/photo-1615571022219-eb45cf7faa9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"  ,"rating" : "7.2", "description" : "There’s a little something for everyone at this amazing beach house! The house contains a full kitchen, 2 queen beds, fire place, patio, BBQ grill and much more. "
+         }, {
+           "id":3,"name":"Catch n' Relax","price":300.45,"address": "1276 commissioners W, london, ON, N6K1E1, CA ","img" :"https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmVhY2glMjBob3VzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" ,"rating" : "7.5" , "description" : "Walking distance to many grocery stores like Longos, Freshco and NoFrills. Nearby to the community recreation centre with an indoor pool, basketball court and gym services. "
+         }, {
+           "id":4,"name":"Rock n' Reel","price":240.99,"address": "3595 Timbercrest road, Noorvik TA,  M2A1Z1","img" :"https://images.unsplash.com/photo-1562925246-25f01be5471c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1077&q=80"  ,"rating" : "8.5", "description" : "Get away to the Jem Coast at this bold and very comfortable beach house where you can enjoy incredible views of the Jem beach from the house."
+         }, {
+           "id":5,"name":"Coral Cottage","price":210.25,"address": "5908 50th st, Leduc, AB, T9E6Z6, CA","img" :"https://images.unsplash.com/photo-1578439297699-eb414262c2de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1120&q=80"  ,"rating" : "9.5", "description" : "Stroll out to the adjacent beach for days of fun in the sun, stay close to home and take a dip in the heated pool, or maintain your workout routine in the indoor gym."
+         }
+       ] 
+
+     },{
+      "id": 4, 
+       "name": "Hotel", 
+       "description": "Check our exclusive Hotels!!",
+       "img":"https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+     "list" :[
+       {
+         "id":1,"name":"Emerald Bay Inn","price":200.01,"address": "5908 50th st, Leduc, AB, T9E6Z6, CA","img" :"https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"  ,"rating" : "9.5", "description" : "Hotel & Spa is a family-friendly hotel that offers a wide range of accommodation types, from rooms to suites. All this in the peaceful surroundings of our beautiful gardens, will make your time at an unforgettable holiday"
+       }, {
+         "id":2,"name":"Hotel Bliss","price":199.02,"address": "277 West side St, Long fellow Lake, BC, 1A13D4, CA ","img" :"https://images.unsplash.com/photo-1568084680786-a84f91d1153c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"  ,"rating" : "8.2", "description" : "The hotel offers a complete experience with common areas that allow you to meet new people in a unique atmosphere. Lounge area, Ping Pong table, table soccer, darts & Boiler room: we told you, it’s not a hotel like the others, it’s a sharing hotel."
+       }, {
+         "id":3,"name":"Ramada Limited & Suites","price":120.33,"address": "3595 Timbercrest road, Noorvik TA,  M2A1Z1","img" :"https://images.unsplash.com/photo-1598605272254-16f0c0ecdfa5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"  ,"rating" : "9.5", "description" : " Unique 4-star with 175 designed rooms. The hotel is located in the city centre within 10 minutes walk from the and the downtown shopping area. With great location, close to business centres and tourist attractions, this hotel will meet your expectations."
+       }, {
+         "id":4,"name":"University Inn","price":185.54,"address": "2008 Florence St, Hooks, TX, 7G62R6 CA","img" :"https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80"  ,"rating" : "7.5", "description" : "Welcomes you in a real cosmopolitan, pulsing milieu, at the same time offering peace and intimate retirement, just in the heart of the city centre. Timeless elegance tailored for the demands of our time; exceptional combination of magnificent architecture and divine cuisine, in perfect harmony."
+       }, {
+         "id":5,"name":"Sunset Lodge","price":129.60,"address": "1276 commissioners W, london, ON, N6K1E1, CA ","img" :"https://images.unsplash.com/photo-1614957004131-9e8f2a13123c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"  ,"rating" : "8.2", "description" : "The inimitable hotel and residence carrying the vibe of the Old Town. Unique, romantic and generous. Whether your reason to travel is business, romance or vacation, we are definitely the most ideal choice to be made."
+       }
+     ] 
+
+   }
+    ],
+
+    "best-seller" :[
+      {"id" : 1,"address" : "3595 Timbercrest road, Noorvik TA,  M2A1Z1","name" : "Autumn peak resort", "price" : 200.45,"rating" : "9.5", "description" : " Exclusive family owned resort", "image": "https://media.cntraveler.com/photos/5f6ac3279a18c4ed58dd37fd/master/w_2048,h_1365,c_limit/Naladhu-Private-Island-Maldives.jpg"},
+      {"id" : 2,"address" : "5908 50th st, Leduc, AB, T9E6Z6, CA","name" : "Carlton condos","price" : 102.55,"rating" : "8.2", "description" : "Condomanium in the heart of Toronto", "image" : "https://st.depositphotos.com/2256213/3420/i/450/depositphotos_34203861-stock-photo-modern-apartment-building.jpg"},
+      {"id" : 3,"address" : "2008 Florence St, Hooks, TX, 7G62R6 CA","name" : "Catch n' Relax","price" : 240.90,"rating" : "7.5", "description" : "Get away to the Jem Coast", "image" : "https://images.unsplash.com/photo-1544143086-828f66ac3945?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"},
+      {"id" : 4,"address" : "1276 commissioners W, london, ON, N6K1E1, CA ","name" : "Emerald Bay Inn","price" : 199.02,"rating" : "9.8", "description" : "Unique Hotel with breathtaking views. ", "image": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"}
+    ]
+   
+  }

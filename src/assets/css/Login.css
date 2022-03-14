@@ -1,0 +1,98 @@
+.login-page{
+    position: relative;
+    height: 900px;
+    /* background: rgb(22, 23, 24);
+background: linear-gradient(167deg, rgb(70, 82, 102) 33%, rgba(40,83,109,1) 51%, rgb(84, 133, 122) 100%); */
+background-image: url("../images/Banner2.jpeg");
+}
+
+.form1 {
+    
+    background: rgba(167, 239, 239, 0.438);
+background: radial-gradient(circle, rgba(167,239,239,0.25843840954350494) 23%, rgba(247, 244, 238, 0.95) 89%);
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    position: absolute;
+    right:15%;
+   padding-left:10px;
+   padding-right: 10px;
+}
+.form1 form {
+    position: relative;
+  
+}
+
+
+
+.form1 form .form-inner {
+    margin-bottom: 20px;
+    position: relative;
+    display: block;
+    background-color: rgba(29, 1, 1, 0.404);
+    padding: 30px;
+    color:azure;
+    box-shadow: 3px 7px 10px rgb(241, 165, 165);
+    border-radius: 15px;
+    font-size:larger;
+   visibility:visible;
+   
+    
+}
+.form1 form .form-inner h2 {
+    text-align: center;
+}
+.form1 form .form-inner h2 {
+    color: rgb(252, 247, 247);
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 30px;
+
+}
+.form1 form .form-inner .form-group {
+    display: block;
+    width: 300px;
+    margin-bottom: 15px;
+}
+.form1 form .form-inner .form-group label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+    transition: 0.4s;
+}
+.form1 form .form-inner .form-group input {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+.form1 form .form-inner .form-group input:focus {
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+.form1 form .form-inner .forgot {
+    display: block;
+    width: 100%;
+    padding-bottom: 15px;
+}
+.form1 form .form-inner input[type = "submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    background-size: 200%;
+    border-radius: 3px;
+}
+.form1 form .form-inner .create {
+    padding-top: 25px;
+}
+.form1 form:after {
+    display: block;
+    top: -5px;
+    bottom: -5px;
+    right: -5px;
+    left: -5px;
+    z-index: 1;
+    background-image: linear-gradient(to bottom right, blue, white);
+}

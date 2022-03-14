@@ -1,0 +1,59 @@
+
+
+
+.submit {
+    background-color: azure;
+    border:hidden;
+    box-shadow: auto auto rgb(216, 215, 215);
+    padding:2px;
+
+}
+.submit:hover {
+    background-color: maroon;
+    color:aliceblue;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+  }
+  .button1 {
+      border:none;
+  }
+  .on {
+    color: #000;
+  }
+  .off {
+    color: #ccc;
+  }
+
+.filter-list {
+    display:flex;
+}
+
+.h1 {
+    font-size: 30px;
+}
+
+.button1:hover{
+    background-color: maroon;
+    color:aliceblue;
+}
+
+
+.p-list {
+    margin-top:10px;
+    height:auto; /* remeber to change it back to auto here */
+    width:100%;
+    padding:7px;
+
+}
+
+.property {
+    height:200px;
+    width:100%;
+}
+

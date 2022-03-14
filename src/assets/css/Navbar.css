@@ -1,0 +1,51 @@
+.navbar {
+  background: #a7efef;
+  background: radial-gradient(circle, rgba(167, 239, 239, 1) 18%, rgba(245, 238, 221, 0.950315160243785) 93%);
+}
+.navbar .container-fluid .collapse ul li .nav-link {
+  color: black;
+}
+.navbar .container-fluid .collapse ul li .nav-link:hover {
+  border-radius: 0.3px;
+  background-color: #151520;
+  color: aliceblue;
+}
+.navbar .container-fluid .collapse ul li .dropdown .nav-link:hover {
+  border-radius: 0.3px;
+  background-color: #151520;
+  color: aliceblue;
+}
+.navbar .container-fluid .collapse ul li a {
+  display: block;
+}
+.navbar .container-fluid .collapse ul li .dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: inherit;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.navbar .container-fluid .collapse ul li .dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.navbar .container-fluid .collapse ul li .dropdown .dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.navbar .container-fluid .collapse ul li .dropdown .dropdown-content a:hover {
+  background-color: #ddd;
+}
+.navbar .container-fluid .collapse ul li .dropdown:hover .dropdown-content {
+   display: block;
+}

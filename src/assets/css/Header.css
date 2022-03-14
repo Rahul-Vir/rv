@@ -1,0 +1,25 @@
+.my {
+    display: flex;
+    position: relative;
+    background: rgb(3,56,87);
+background: radial-gradient(circle, rgba(3,56,87,1) 26%, rgba(12,13,13,1) 96%);
+    overflow: hidden;
+    color: azure;
+    height: 200px;
+}
+.my .border {
+    padding: 2px;
+
+    margin-left: 26px;
+
+}
+.my .border .logo {
+    height: 100%;
+    width: 200px;
+}
+.my .t {
+    position: absolute;
+    padding-top: 45px;
+    right: 10%;
+    font-size: 60px;
+}
