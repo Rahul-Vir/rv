@@ -13,7 +13,7 @@ const PropList = (props) => {
      <div class="property-list">
      
      <div class="banner">
-     <div class="h1"> {props.data[0].name}s </div>
+     <div class="h1"> {props.data[0].propType}s </div>
      <div class="filter-list">
      <h4>Sort by </h4>
      <button type="submit" class="button">Featured</button>
@@ -45,7 +45,7 @@ const PropList = (props) => {
      </div>
      <div class="p-list">
      {
-     props.data[0].list?.map((element, key) => (
+     props.data?.map((element, key) => (
       <div key={key}>
           <PropertyType element={element}/>
       </div>

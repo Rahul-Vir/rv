@@ -23,9 +23,12 @@ import AllPropertyPage from '../pages/AllPropertyPage';
       <Route path="/" element={<Home />} />
       <Route path="login" element={<LoginPage />} />
       <Route path="registration" element={<RegisterPage />} />
-      <Route path="propertyList/:id" element={<PropertyList />} />
+      <Route path="propertyList" element={<PropertyList />} />
+      <Route path="propertyList/:flag" element={<PropertyList />} />
       <Route path="allproperty" element={<AllPropertyPage />} />
+      <Route path="allproperty/:name" element={<AllPropertyPage />} />
       <Route path="propertyDescription/:id" element={<PropertyDescription />} />
+      <Route path="propertyDescription" element={<PropertyDescription />} />
       
     </Routes>
   </BrowserRouter>

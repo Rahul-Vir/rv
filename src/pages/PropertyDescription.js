@@ -8,29 +8,44 @@ import { useParams } from 'react-router-dom';
 
 
 export const PropertyDescription = () => {
-
+  const[data,setData] = useState()
   let params = useParams();
-const [data,setData] = useState(
-  [{"id":0,
-name: "",
-description : "",
-list :[]
-}
-])
+const [data1,setData1] = useState(
+  [{
+    id: "",
+    image: "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHJlc29ydHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    propTitle: "",     
+    propDescription: "",
+     propPrice: "",
+        propType: "",
+propLocation:
+ {
+streetAddress: "",
+        city: "",
+        postalCode: "",
+        province: ""}
+        ,
+    houseRules: "",
+     amenities: "",
+        bestseller: true
+
+  }])
 
 useEffect(()=>{
-fetch("http://localhost:5000/best-seller").then(response => response.json()).then(json=>{
   
-let callProperty = json.filter((element) => element.id == parseInt(params.id))
- setData(callProperty);
-}).catch(err=>{
-  console.log(err);
-})
 
+  fetch(`http://localhost:5000/propertybytitle?propTitle=${params.id}`).then(response => response.json()).then(json=>{
+    setData1(json)
+  }).catch(err=>{
+    console.log(err);
+  })
+  
 },[])
-
   return (
-    <div> <Header /><Navbar /><Description data={data} /> <Footer /></div>
+    <div>
+    <Header /><Navbar setData={setData} /><Description data1={data1} /> <Footer />
+
+     </div>
   )
 }
 

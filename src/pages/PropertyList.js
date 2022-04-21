@@ -7,24 +7,34 @@ import { Navbar } from '../components/Navbar';
 import Header from '../components/Header';
 import { useParams } from 'react-router-dom';
 
-
-
-
-
  const PropertyList = () => {
 
   let params = useParams();
-  const [data,setData] = useState(
-    [{"id":0,
-  name: "",
-  description : "",
-  list :[]
-}
-])
+  const [data,setData] = useState()
+  const [data1,setData1] = useState(
+    [{
+      id: "",
+      image: "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHJlc29ydHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      propTitle: "",     
+      propDescription: "",
+       propPrice: "",
+          propType: "",
+  propLocation:
+   {
+  streetAddress: "",
+          city: "",
+          postalCode: "",
+          province: ""}
+          ,
+      houseRules: "",
+       amenities: "",
+          bestseller: true
+  
+    }])
 useEffect(()=>{
-  fetch("http://localhost:5000/\property-type").then(response => response.json()).then(json=>{
-    let callProperty = json.filter((element)=> element.id == parseInt(params.id))
-    setData(callProperty);
+
+  fetch(`http://localhost:5000/propertybytype/${params.flag}`).then(response => response.json()).then(json=>{
+    setData1(json)
   }).catch(err=>{
     console.log(err);
   })
@@ -34,8 +44,8 @@ useEffect(()=>{
   return (
     <div>
     <Header />
-    <Navbar /> 
-    <div className='prop-list-page'><PropListLeft data={data}/><PropListRight data={data} /></div>
+    <Navbar  setData={setData} /> 
+    <div className='prop-list-page'><PropListLeft data={data1}/><PropListRight data={data1} /></div>
     <Footer /> 
     </div>
   )

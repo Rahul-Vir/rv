@@ -2,6 +2,7 @@ import React from 'react';
 import { Header } from '../components/Header';
 import { Navbar } from '../components/Navbar';
 import { Login } from '../components/Login';
+import Footer from '../components/Footer';
 
 
 
@@ -12,7 +13,7 @@ export const LoginPage = () => {
     <Header />
     <Navbar />
     <Login />
-
+    <Footer />
     </div>
   )
 }

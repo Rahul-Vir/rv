@@ -14,7 +14,7 @@ export const PropListLeft = (props) => {
     <div class="map-result "> 
     
      <p>Narrow results:</p>
-    <div class="result h4" type="text">{props.data[0].list.length} {props.data[0].name}s found!!</div>
+    <div class="result h4" type="text">{props.data.length} {props.data[0].propType}s found!!</div>
     
     </div>
     <div class="name-contains prop"> <p>Name contains</p> 

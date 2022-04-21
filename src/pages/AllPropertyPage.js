@@ -5,26 +5,37 @@ import { Navbar } from '../components/Navbar';
 import Header from '../components/Header';
 import AllProperty from '../components/AllProperty';
 import AllPropertyLeft from '../components/AllPropertyLeft';
-
-
-
+import { useParams } from 'react-router-dom';
 
  const AllPropertyPage = () => {
-    let temp = []
-
+let temp = []
+const params = useParams()
   const [data,setData] = useState(
-    [{"id":0,
-  name: "",
-  description : "",
-  list :[]
-}
+    [{
+      id: "",
+      image: "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHJlc29ydHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      propTitle: "",     
+      propDescription: "",
+       propPrice: "",
+          propType: "",
+  propLocation:
+   {
+  streetAddress: "",
+          city: "",
+          postalCode: "",
+          province: ""}
+          ,
+      houseRules: "",
+       amenities: "",
+          bestseller: true
+  
+    
+  }
 ])
 useEffect(()=>{
-  fetch("http://localhost:5000/property-type").then(response => response.json()).then(json=>{
-    json.forEach((element)=> element.list.forEach((element1)=>{
-        temp.push(element1)
-    }))
-    setData(temp);
+  const url = (params.name)?"http://localhost:5000/propertybytype/"+params.name:"http://localhost:5000/propertylist"
+  fetch(url).then(response => response.json()).then(json=>{
+    setData(json);
   }).catch(err=>{
     console.log(err);
   })
@@ -35,8 +46,8 @@ useEffect(()=>{
 
   return (
     <div>
-    <Header />
-    <Navbar /> 
+    <Header  />
+    <Navbar setData={setData} /> 
     <div className='prop-list-page'><AllPropertyLeft data={data}/><AllProperty data={data} /></div>
     <Footer /> 
     </div>

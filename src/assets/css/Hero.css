@@ -1,16 +1,17 @@
 .hero {
  
-    height:600px;
+    height:500px;
     width:100%;
-    background: rgb(210,227,227);
-background: radial-gradient(circle, rgba(210,227,227,0.8970938717283788) 26%, rgba(149,251,251,0.6646008745294993) 84%);
+    background: rgb(242, 245, 245);
+background: radial-gradient(circle, rgba(210,227,227,0.8970938717283788) 26%, rgba(242, 244, 244, 0.665) 84%);
  padding-top: 10px;
  overflow:hidden;
 }
 
 .hero .carousel .slider-wrapper {
     width: 80%;
-    height: 500px;
+    height: 400px;
+    box-shadow: 0 2px 5px rgba(1, 0, 0, 01);
 }
 .hero .carousel .thumb {
     width: 5%;
@@ -22,5 +23,6 @@ background: radial-gradient(circle, rgba(210,227,227,0.8970938717283788) 26%, rg
 
 
 img {
-    height:600px;
+    height:400px;
+    
 }

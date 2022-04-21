@@ -1,21 +1,22 @@
 .Registration {
-    padding: 40px;
-    height: 600px;
+   
+    height: 420px;
     text-align: center;
     background: rgb(210,227,227);
 background: radial-gradient(circle, rgba(210,227,227,0.8970938717283788) 26%, rgba(149,251,251,0.6646008745294993) 84%);
 }
 .register-row {
     display: flex;
-    padding: 10px;
+    
     justify-content: center;
     margin-left: 100px;
     padding-top: 20px;
+    height:100px;
     position: relative;
 
 }
 .Registration .register-row .register-btn {
-    padding-top: 40px;
+    padding-top: 20px;
     justify-content: center;
 }
 .Registration .register-row .register-btn .button {
@@ -23,24 +24,24 @@ background: radial-gradient(circle, rgba(210,227,227,0.8970938717283788) 26%, rg
     height: 50px;
     border-radius: 0.5em;
     font-size: large;
-    margin-bottom:10px;
+    margin-bottom:15px;
 }
 .Registration .register-row .register-btn .button:hover {
-    background-color: #034419;
+    background-color: #027227;
     color: aliceblue;
 }
 .Registration .register-row table {
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+    box-shadow: 0 5px 5px rgba(79, 92, 26, 0.534);
     border-radius: 15px;
     position: absolute;
-    right: 20%;
-    background-color: #262b35;
-    color:azure;
-    padding-top: 10px;
+    right: 10%;
+    background: radial-gradient(circle, rgba(210,227,227,0.8970938717283788) 26%, rgba(118, 182, 182, 0.601) 84%);
+    color:rgb(12, 17, 17);
+   
+    margin-right:20px;
+    
 }
-.Registration .register-row table tbody tr .r {
-    padding-right: 80px;
-}
+
 .Registration .register-row table tbody tr td {
     width: 300px;
     margin-top: 2px;
@@ -49,7 +50,7 @@ background: radial-gradient(circle, rgba(210,227,227,0.8970938717283788) 26%, rg
     width: 300px;
 }
 .Registration .register-row table tbody tr td input {
-    padding: 10px 15px;
+    padding: 5px 5px;
     border-radius: 8px;
     transition: 0.4s;
     text-align: justify;

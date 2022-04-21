@@ -1,11 +1,14 @@
 
 .card {
     
-    padding:10px;
+    padding:5px;
     margin-right:10px;
+    margin-left:10px;
     justify-content: space-around;
     height:400px;
-  
+    width:auto;
+    background: radial-gradient(circle, rgba(210,227,227,0.8970938717283788) 26%, rgba(243, 245, 245, 0.344) 84%);
+    box-shadow: 0 5px 5px rgba(79, 92, 26, 0.534);
 }
 
 .content p {
