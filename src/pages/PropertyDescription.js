@@ -34,7 +34,7 @@ streetAddress: "",
 useEffect(()=>{
   
 
-  fetch(`http://localhost:5000/propertybytitle?propTitle=${params.id}`).then(response => response.json()).then(json=>{
+  fetch(`https://rest-inn-backend.herokuapp.com/propertybytitle?propTitle=${params.id}`).then(response => response.json()).then(json=>{
     setData1(json)
   }).catch(err=>{
     console.log(err);

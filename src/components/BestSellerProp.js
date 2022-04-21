@@ -28,7 +28,7 @@ streetAddress: "",
  
 
   useEffect(() => {
-    fetch("http://localhost:5000/property/bestseller?bestseller=true").then(response => response.json()).then(json => {
+    fetch("https://rest-inn-backend.herokuapp.com/property/bestseller?bestseller=true").then(response => response.json()).then(json => {
       setList(json);
     }).catch(err => {
       console.log(err);

@@ -33,7 +33,7 @@ const params = useParams()
   }
 ])
 useEffect(()=>{
-  const url = (params.name)?"http://localhost:5000/propertybytype/"+params.name:"http://localhost:5000/propertylist"
+  const url = (params.name)?"https://rest-inn-backend.herokuapp.com/propertybytype/"+params.name:"https://rest-inn-backend.herokuapp.com/propertylist"
   fetch(url).then(response => response.json()).then(json=>{
     setData(json);
   }).catch(err=>{

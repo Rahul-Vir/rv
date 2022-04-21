@@ -33,7 +33,7 @@ import { useParams } from 'react-router-dom';
     }])
 useEffect(()=>{
 
-  fetch(`http://localhost:5000/propertybytype/${params.flag}`).then(response => response.json()).then(json=>{
+  fetch(`https://rest-inn-backend.herokuapp.com/propertybytype/${params.flag}`).then(response => response.json()).then(json=>{
     setData1(json)
   }).catch(err=>{
     console.log(err);

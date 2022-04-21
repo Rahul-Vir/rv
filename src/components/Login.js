@@ -16,7 +16,7 @@ export const Login = () => {
 const handleClick =()=>{
   let result = {email,password};
   console.log('qqqqqqqqqqqqqqqqqqqqqq',result);
-  fetch("http://localhost:5000/user/login",{
+  fetch("https://rest-inn-backend.herokuapp.com/user/login",{
     method : "POST",
     headers : {
       'Content-Type': 'application/json' 

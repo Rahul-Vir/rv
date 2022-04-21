@@ -30,7 +30,7 @@ const logOut = (event)=>{
 }
 const [data,setData1] = useState("")
 const handleClick = ()=>{
-  fetch(`http://localhost:5000/propertybytype/${data}`).then(response => response.json()).then(json=>{
+  fetch(`https://rest-inn-backend.herokuapp.com/propertybytype/${data}`).then(response => response.json()).then(json=>{
     setData(json)
   }).catch(err=>{
     console.log(err);

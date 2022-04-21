@@ -18,7 +18,7 @@ export const Register = () => {
   let result;
     const handleClick = ()=>{
         result = {firstName, lastName, city, number, postalCode, province,streetAddress,email,password}
-        fetch("http://localhost:5000/user/registration",{
+        fetch("https://rest-inn-backend.herokuapp.com/user/registration",{
             method : "POST",
             headers: {
                 'Content-Type': 'application/json'
