@@ -62,7 +62,7 @@ navigate(`/allproperty/${data}`);
           <a className="nav-link active" aria-current="page" href="/allproperty">Property</a>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to={`/`}>Dashboard</Link>
+          <Link className="nav-link active" aria-current="page" to={`/dashboard`}>Dashboard</Link>
         </li>
         <li className="nav-item">
         <button className="dropbtn nav-link active" aria-current="page" onClick={logOut}>Logout</button>

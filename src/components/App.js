@@ -14,6 +14,7 @@ import {
 import {Link } from 'react-router-dom';
 import Description from '../components/Description.js';
 import AllPropertyPage from '../pages/AllPropertyPage';
+import Dashboard from '../pages/Dashboard';
 
  const App = () => {
   return (
@@ -29,6 +30,7 @@ import AllPropertyPage from '../pages/AllPropertyPage';
       <Route path="allproperty/:name" element={<AllPropertyPage />} />
       <Route path="propertyDescription/:id" element={<PropertyDescription />} />
       <Route path="propertyDescription" element={<PropertyDescription />} />
+      <Route path="dashboard" element={<Dashboard />} />
       
     </Routes>
   </BrowserRouter>

@@ -28,9 +28,9 @@ const handleClick =()=>{
     {
       response.json().then((json)=>{
         console.log('aaaaaaaaaaaaa',json);
-        SetCookies.set("login", json.id, { "path": "/" })
+        SetCookies.set("login", json ,{ "path": "/" })
         console.log('id-----------------',SetCookies.get('login'));
-        navigation('/')
+        navigation('/dashboard')
       })
     }
     else{

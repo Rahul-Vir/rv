@@ -1,0 +1,39 @@
+.dashboard{
+    margin-top: 30px;
+    display: flex;
+    height:500px;
+}
+
+    .user{
+
+        padding-left: 50px;
+        width: 60%;
+    }
+     .user   .h3{
+            margin: 20px;
+
+        
+        }
+
+        .details .row1  .row-info {
+                  
+                    display: flex;
+                    padding:10px;
+        }
+                    
+   .details .row1  .row-info  .label {
+                        margin-right:10px;
+                    }
+
+       .details .row1  .row-info   .field {
+                        width:200px;
+                        margin-left:5px;
+                        border:hidden;
+                        
+                    }
+                
+        
+        
+        
+    
+    
